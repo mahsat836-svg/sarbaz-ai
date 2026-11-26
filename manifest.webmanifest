@@ -1,0 +1,12 @@
+{
+  "name": "SARBAZ AI — төтенше жағдайдағы шешім тренажері",
+  "short_name": "SARBAZ AI",
+  "description": "БӘД (бастапқы әскери даярлық) пәніне арналған оқу тренажері және «Көшеге шық!» мектеп картасы ойыны",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#081a33",
+  "theme_color": "#081a33",
+  "lang": "kk",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
