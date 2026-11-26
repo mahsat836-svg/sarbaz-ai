@@ -320,16 +320,16 @@ function gameTeaser(){
 }
 function miniSchool(){
   let s = '<rect width="480" height="300" fill="#2f6b45"/><rect x="20" y="20" width="440" height="150" fill="#2b3d55"/>';
-  [[30,30,80,50],[120,30,80,50],[210,30,80,50],[300,30,150,50],[30,120,80,40],[120,120,60,40],[260,120,80,40],[350,120,100,40]].forEach(([x,y,w,hh]) => s += '<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+hh+'" fill="#efe4cc"/>');
+  [[30,30,80,50],[136,30,96,50],[250,30,80,50],[356,30,94,50],[30,120,80,40],[120,120,60,40],[260,120,60,40],[340,120,60,40],[420,120,30,40]].forEach(([x,y,w,hh]) => s += '<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+hh+'" fill="#efe4cc"/>');
   s += '<rect x="30" y="88" width="420" height="24" fill="#fbf7ec"/><rect x="215" y="112" width="40" height="58" fill="#fbf7ec"/>';
-  s += '<rect x="30" y="88" width="20" height="24" fill="#c9d3df"/><rect x="430" y="88" width="20" height="24" fill="#c9d3df"/>';
-  s += '<rect x="215" y="166" width="40" height="8" fill="#3ddc97"/><rect x="20" y="88" width="10" height="24" fill="#3ddc97"/><rect x="450" y="88" width="10" height="24" fill="#3ddc97"/>';
+  s += '<rect x="114" y="30" width="20" height="58" fill="#c9d3df"/><rect x="334" y="30" width="20" height="58" fill="#c9d3df"/>';
+  s += '<rect x="215" y="166" width="40" height="8" fill="#3ddc97"/><rect x="20" y="88" width="10" height="24" fill="#3ddc97"/><rect x="450" y="125" width="10" height="24" fill="#3ddc97"/>';
   s += '<rect x="30" y="120" width="80" height="40" fill="#5d6670" opacity=".8"/><path d="M45 158 q8-26 18-10 q4-16 12 0 q10-8 6 10z" fill="#ff8a3d"/>';
   s += '<rect x="30" y="88" width="120" height="24" fill="#5d6670" opacity=".6"/>';
   s += '<rect x="215" y="174" width="40" height="70" fill="#cdbd9c"/><rect x="0" y="244" width="480" height="8" fill="#5a4632"/><rect x="205" y="244" width="60" height="8" fill="#c9a46a"/>';
   s += '<rect x="0" y="252" width="480" height="24" fill="#a7afb8"/><rect x="40" y="252" width="90" height="24" fill="#ffc857"/><rect x="0" y="276" width="480" height="24" fill="#3a3f47"/>';
-  s += '<path d="M235 100 L380 100 L440 100" stroke="#1f9d63" stroke-width="5" fill="none" stroke-dasharray="10 8"/>';
-  s += '<path d="M440 100 L465 100 L465 230 L250 230 L235 248 L235 262 L90 262" stroke="#4cc9f0" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>';
+  s += '<path d="M235 100 L120 100 L40 100" stroke="#1f9d63" stroke-width="5" fill="none" stroke-dasharray="10 8"/>';
+  s += '<path d="M235 100 L235 170 L235 262 L90 262" stroke="#4cc9f0" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>';
   s += '<circle cx="235" cy="100" r="11" fill="#4cc9f0" stroke="#062036" stroke-width="3"/><text x="85" y="268" font-size="13" font-weight="800" fill="#1b1300" text-anchor="middle" font-family="sans-serif">Жиналу орны</text>';
   s += '<text x="240" y="293" font-size="12" fill="#e8e8e8" text-anchor="middle" font-family="sans-serif">Ақынтоған көшесі</text>';
   return s;
